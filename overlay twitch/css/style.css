@@ -1,0 +1,181 @@
+
+/*Importation police
+*****************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+
+/*Animation liens/partenaires
+*****************************************************************/
+#content{
+	position: relative;
+	left : -220px;
+}
+#twitter, #snap, #yt {
+	width: 200px;
+	height: 30px;
+    margin : 0;
+    padding : 0;
+    margin-left : 5px;
+    padding-top: 5px;
+	padding-bottom: 3px;
+	background: #0f3369;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	font-size: 24px;
+    color: white;
+    font-family: arial;
+}  
+.partner-logo{
+	width: 200px;
+	height: 50px;
+}
+ #twitter i
+{
+	color: #2EFEF7;
+}	  
+#snap i
+{
+	color: #FFBF00;
+}	  
+#yt i
+{
+	color: #DF0101;
+}	  
+#content span{
+	margin-left : 15px;
+}
+
+
+/*logo sur la caméra - scène principale
+*****************************************************************/
+#camhover{
+	z-index: 2;
+	width : 150px;
+	position: absolute;
+	right : -10px;
+	bottom: 300px;
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+	transform: rotate(30deg);
+}
+
+
+/*Gestion des label de l'overlay (sub, dons)
+*****************************************************************/
+.icon{
+	margin : 0;
+	padding : 0;
+	margin-left : 10px;
+	width : 40px;
+	height : 40px;
+	vertical-align : middle;
+	margin-right : 10px;
+}
+p{
+	text-transform: uppercase;
+	font-family: 'Bowlby One SC', cursive;
+}
+
+
+/*Scène principale
+*****************************************************************/
+#cam{
+	width: 450px;
+	height: 250px;
+	margin: 0;
+	padding : 0;
+	opacity : 1;
+	background : rgba(65, 95, 149, 0.9);
+	position : absolute;
+	bottom: 105px;
+	right : 3px;
+	border: 4px solid #0f3369;
+}
+#streamlabs{
+	width: 455px;
+	height : 103px;
+	padding : 0;
+	margin : 0;
+	position : absolute;
+	bottom: 400px;
+	right : 3px;*/
+	z-index : 1;
+}
+#sub p, #donator p{
+	font-size: 1.5em;
+	line-height: 40px;;
+	padding 0;
+	margin : 0;
+	margin-top: 5px;
+	height : 40px;
+	overflow:hidden;
+    background-image:linear-gradient(to left, rgba(255, 255, 255, 0), #0f3369);
+	color: #A4A4A4;
+	opacity : 1;
+}
+#hoverline{
+	z-index: 2;
+	width : 100px;
+	position: absolute;
+	right : 0;
+	bottom: 16px;
+	opacity : 0.5;
+}
+
+
+/*Scène de pause
+*****************************************************************/
+#p_cam{
+	width: 980px;
+	height: 550px;
+	margin: 0;
+	padding : 0;
+	opacity : 1;
+	background : rgba(65, 95, 149, 0.9);
+	position : absolute;
+	bottom: 215px;
+	left : 10px;
+	border: 8px solid #0f3369;
+}
+
+#p_streamlabs
+{
+	width: 1000px;
+	height : 103px;
+	padding : 0;
+	margin : 0;
+	position : absolute;
+	bottom: 100px;
+	left : 10px;
+	z-index : 1;
+}
+#p_sub p, #p_donator p{
+	font-size: 1.5em;
+	line-height: 40px;
+	padding 0;
+	margin : 0;
+	margin-top: 5px;
+	height : 40px;
+	border : 2px solid #0f3369;
+	overflow:hidden;
+	background : #0f3369;
+	color: #A4A4A4;
+	opacity : 0.8;
+	vertical-align : middle;
+}
+#p_sub, #p_donator
+{			
+	width : 496px;
+	display: inline-block;
+}
+#chat
+{
+	width : 550px;
+	height : 800px;
+	border : 5px solid #0f3369;
+	position : absolute;
+	right : 150px;
+	top: 140px;
+	background : rgba(65, 95, 149, 0.9);
+}
